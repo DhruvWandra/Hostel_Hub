@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "axe/name-role-value": "off",
+    "axe/forms": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent",
+          "text-align: -webkit-match-parent",
+          "-webkit-text-size-adjust",
+          "user-select",
+          "user-select",
+          "user-select",
+          "-webkit-text-size-adjust",
+          "user-select",
+          "user-select"
+        ]
+      }
+    ],
+    "axe/text-alternatives": "off"
+  }
+}
